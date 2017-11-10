@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
 <head>
-  <title>Blaze Chicago</title>
+  <title>Lab 3</title>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-  <link rel="stylesheet" media="screen" href="style.css" />
+  
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPgh3pPnKcjIhCnksgBAYfjgnOnEWUjPI&callback=initMap">
+  </script>
   <script type="text/javascript" src="js/javascript.js"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <!-- Icon Library -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" media="screen" href="style.css" />
+  <nav>
+      <div class="topnav" id="myTopnav">
+      <a href="#home">Home</a>
+      <a href="#news">Education</a>
+      <a href="#contact">Legislation</a>
+      <a href="#about">Unified Food Labeling</a>
+      <a href="#about">Government Help</a>
+      <a href="#about">Monitary Incentives</a>
+      <a href="javascript:void(0);" class="icon" onclick="mobileNav()">&#9776;</a>
+    </div>
+    </nav>
   
 </head>
 <body>
-  <div class="container">
-    <header>
-      <img src="images/b_logo.png" alt="Blaze Chicago Logo">
-    </header>
-<nav>
-  <div class="topnav" id="myTopnav">
-  <a href="#home">Home</a>
-  <a href="#news">Vape Menu</a>
-  <a href="#contact">Photo Gallery</a>
-  <a href="#about">Contact / Location</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-</nav>
-</div>
-
- <div class="wrapper"> 
+    <div class="wrapper">
+      
+    <div class="box header">
+      <div id="map">My map will go here</div>
+    </div>
     <div class="box sidebar">Sidebar</div>
     <div class="box content">Content
     <br /> More content than we had before so this column is now quite tall.</div>
     <div class="box sidebar2">Sidebar</div>
     <div class="box footer">Footer</div>
     </div>
-
+ 
 </body>
 </html>
